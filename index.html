@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Game | MuqsitX</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<style type="text/css">
+		.container{
+			text-align: center;
+		}
+	</style>
+</head>
+<body class="container">
+	<div class="content">
+		<h3>Guess Game</h3>
+		<div id="usernameDiv">
+			<input type="text" name="username" id="username" placeholder="Enter Your Username">
+			<button id="saveUser" onclick="saveUsername()">Save and Continue</button>
+		</div>
+		<div id="guessDiv" style="display:none">
+			<p id="user"></p>
+			<p id="rangep"></p>
+			<p id="rangep1"></p>
+			<input type="number" name="usernumber" id="usernumber" placeholder="Enter a guess">
+			<button id="startGuess" onclick="submitGuess()">Submit Guess</button>
+			<div id="result">
+				<p id="ug"></p>
+				<p id="ag"></p>
+				<p id="score"></p>
+			</div>
+		</div>
+
+		<div id="status">
+			<h3 id="predicted"></h3>
+			<h3 id="display"></h3>
+			<h3 id="outcome"></h3>
+			<h1 id="h1"></h1>
+		</div>
+	</div>
+</body>
+</html>

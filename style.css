@@ -1,0 +1,14 @@
+.content{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	padding: 5%;
+}
+
+#waiting{
+				color: blue;
+				font-weight: bold;
+				font-family: times;
+				display: none;
+				}
